@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+
+.profilepic{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: 0;
+  float: right;
+}
+.profile_name{
+  display: grid;
+  align-content: center;
+ justify-content: center; 
+
+}
+@keyframes example{
+  0% {color: orange;}
+  25% {color: orangered;}
+  50%  {color: orchid;}
+  100% {color: pink;}
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.github_link{
+ margin-left: 15px;
+ border: solid 1px ;
+ border-radius: 25%;
+ text-decoration: none;
+ color: orange;
+ animation-name: example;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+ justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.linkedin_link{
+  margin-left: 15px;
+  border: solid 1px ;
+  border-radius: 25%;
+  text-decoration: none;
+  color: orange;
+  animation-name: example;
+  animation-duration: 4s; 
+  animation-iteration-count: infinite;
+  justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.details{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
